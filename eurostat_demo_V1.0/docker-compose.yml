@@ -1,0 +1,10 @@
+version: "3"
+services:
+  numerical-llm-app:
+    build: .
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./Data:/app/Data
+    environment:
+      - STREAMLIT_SERVER_PORT=8050

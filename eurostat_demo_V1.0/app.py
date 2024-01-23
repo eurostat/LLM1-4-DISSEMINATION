@@ -9,6 +9,8 @@ from models import query_engine_factory
 from htmlTemplates import css
 import openai
 
+os.environ['OPENBLAS_NUM_THREADS'] = '1'
+
 load_dotenv()
 openai.api_key = os.environ["OPENAI_API_KEY"]
 

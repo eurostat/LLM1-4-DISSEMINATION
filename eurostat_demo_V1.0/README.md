@@ -18,7 +18,7 @@ OpenAI token can be created on openai.com and needs to be credited with funding 
 Replicate token can be created on replicate.com and does not need any crediting (free). Both tokens are copied to .env file.
 
 ## Run the app manually
-1. pip install requirements.txt
+1. pip install -r requirements.txt
 2. got to "eurostat_demo_V1" & run: streamlit run app.py
 
 NOTE: the server runs on "localhost:8501". with both interfaces for the models on same page.
